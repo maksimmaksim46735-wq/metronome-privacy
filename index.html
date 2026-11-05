@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Голосовой метроном</title>
+<meta name="description" content="Политика конфиденциальности приложения «Голосовой метроном»: данные не собираются, настройки хранятся на устройстве, оплата проходит через RuStore.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(120% 70% at 50% 0%, #101a26 0%, #070a0f 60%);
+    color: #e9f0f8;
+    font-family: "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
+    line-height: 1.65;
+  }
+  main { max-width: 780px; margin: 0 auto; padding: 48px 22px 80px; }
+  h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -.01em; }
+  h2 { font-size: 18px; margin: 34px 0 10px; color: #9fe8f3; }
+  p, li { color: #c6d3e2; font-size: 15.5px; }
+  ul { padding-left: 22px; }
+  .muted { color: #78879c; font-size: 13.5px; }
+  a { color: #22d3ee; }
+  hr { border: 0; border-top: 1px solid #1b2532; margin: 44px 0; }
+  .card {
+    border: 1px solid #1b2532;
+    background: linear-gradient(180deg, #111a25, #0d141d);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 18px 0;
+  }
+  .card p { margin: 0; }
+  footer { margin-top: 40px; color: #55657a; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Политика конфиденциальности</h1>
+  <p class="muted">Приложение «Голосовой метроном» (Voice Metronome) · © 2026 max.art</p>
+
+  <div class="card">
+    <p>Приложение не собирает, не хранит и не передаёт персональные данные пользователей.
+    Настройки хранятся только на устройстве. Оплата Pro-версии проходит через RuStore —
+    разработчик не получает данные банковской карты.</p>
+  </div>
+
+  <h2>Какие данные обрабатываются</h2>
+  <ul>
+    <li>Приложение не запрашивает доступ к геолокации, камере, микрофону, контактам,
+        файлам, SMS и журналу звонков.</li>
+    <li>Нет регистрации, аккаунтов и авторизации.</li>
+    <li>Нет аналитики, рекламных SDK и трекеров.</li>
+    <li>Настройки (размер, темп, громкости, выбранный голос, открыта ли Pro-версия)
+        сохраняются локально на устройстве и не покидают его.</li>
+  </ul>
+
+  <h2>Разрешения Android</h2>
+  <ul>
+    <li><strong>INTERNET</strong> и <strong>ACCESS_NETWORK_STATE</strong> — нужны RuStore Pay SDK
+        для проведения и восстановления покупки.</li>
+    <li><strong>RECEIVE_BOOT_COMPLETED</strong> — добавляется RuStore Pay SDK
+        для служебных задач платёжного модуля.</li>
+    <li>Сам метроном работает полностью офлайн и в сеть не обращается.</li>
+  </ul>
+
+  <h2>Встроенная покупка</h2>
+  <p>Pro-версия открывается разовой покупкой через RuStore. Платёж обрабатывает RuStore:
+  приложение получает только результат операции (открыта ли покупка) и не видит
+  банковские данные. Обработка платёжной информации регулируется документами RuStore
+  (<a href="https://www.rustore.ru/help/legal/privacy-policy-users" target="_blank" rel="noopener">политика RuStore</a>).</p>
+
+  <h2>Передача третьим лицам</h2>
+  <p>Приложение не передаёт данные третьим лицам. Единственное взаимодействие с внешним
+  сервисом — RuStore, и только в момент покупки или восстановления покупки.</p>
+
+  <h2>Дети</h2>
+  <p>Приложение не собирает данные и безопасно для любого возраста (рейтинг 0+).</p>
+
+  <h2>Изменения</h2>
+  <p>При изменении функциональности политика может обновляться; актуальная версия
+  всегда доступна по этому адресу.</p>
+
+  <h2>Контакты</h2>
+  <p>Вопросы по приложению и обработке данных: <strong>max.art</strong>.</p>
+
+  <hr>
+
+  <h1 lang="en">Privacy Policy (English)</h1>
+  <p lang="en">The Voice Metronome app does not collect, store or share any personal data.
+  Settings (meter, tempo, volumes, voice, Pro status) are stored locally on the device only.</p>
+  <ul lang="en">
+    <li>No access to location, camera, microphone, contacts, files or messages.</li>
+    <li>No accounts, no analytics, no advertising SDKs or trackers.</li>
+    <li><strong>INTERNET</strong> and <strong>ACCESS_NETWORK_STATE</strong> are used only by the
+        RuStore Pay SDK to process and restore the Pro purchase;
+        <strong>RECEIVE_BOOT_COMPLETED</strong> is added by the same SDK.</li>
+    <li>Payments are processed by RuStore; the developer never receives card data.</li>
+  </ul>
+  <p class="muted" lang="en">© 2026 max.art. All rights reserved.</p>
+
+  <footer>
+    Страница для магазинов приложений · <a href="https://max.art">max.art</a>
+  </footer>
+</main>
+</body>
+</html>
